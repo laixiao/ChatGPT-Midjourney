@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start --port 80",
     "lint": "next lint",
     "prompts": "node ./scripts/fetch-prompts.mjs",
     "prepare": "husky install",
